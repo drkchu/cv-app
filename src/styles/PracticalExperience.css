@@ -1,0 +1,30 @@
+/* src/styles/PracticalExperience.css */
+.practical-experience {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .practical-experience input,
+  .practical-experience textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .practical-experience button {
+    padding: 10px 20px;
+    background-color: #ffc107;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .practical-experience button:hover {
+    background-color: #e0a800;
+  }
+  
